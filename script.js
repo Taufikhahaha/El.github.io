@@ -11,7 +11,7 @@ function showNotification() {
 
 function showImage() {
   var img = document.createElement("img");
-  img.src = "img/b.jpg";
+  img.src = "b.jpg";
   img.classList.add("floating-image");
   document.body.appendChild(img);
 
