@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Halaman dengan Gambar Tengah dan Teks di Atas</title>
+<link rel="stylesheet" href="Styles/style.css">
+  <link href="https://db.onlinewebfonts.com/c/bc94383eb2d9920cfd4c063203cc2cc3?family=Birthday+Regular" rel="stylesheet">
+</head>
+<body>
+<div id="balloon-container"></div>
+<div class="container">
+  <h1 class="centered-text">Happy birthday 🎂🎈!!!</h1>
+  <img src="img/rea.png" alt="Gambar" class="centered-image">
+  <div class="button-container">
+    <button class="button-89" onclick="playSound('msc/a.mp3')">Listen</button>
+      
+    <button class="button-89" onclick="showNotification()">a message from me to u</button>
+    <button class="button-89" onclick="showImage()">tutorial cantik</button>
+    <button class="button-89" onclick="showMission()">Hadiah</button>
+  </div>
+</div>
+<div class="container">
+  <div class="balloon balloon1"></div>
+  <div class="balloon balloon2"></div>
+  <div class="balloon balloon3"></div>
+</div>
+  <audio id="audio" src="" preload="auto"></audio>
+  
+<audio autoplay style="display: none;">
+  <source src="c.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+  
+<script src="Script/script.js"></script>
+</body>
+</html>
